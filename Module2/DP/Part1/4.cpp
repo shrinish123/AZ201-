@@ -19,7 +19,7 @@ int dist(int i,int j){
 
 int rec(int l,int r){
     if(r- l < 3){
-        return 9;
+        return 0;
     }
 
     if(dp[l][r] !=-1){
